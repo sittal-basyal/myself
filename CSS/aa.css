@@ -1,0 +1,161 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#436B95;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    gap: 70px;
+    background-color: navy;
+    position: fixed;
+    padding :10px;
+    width: 100%;
+    top: 0;
+}
+.aaa{
+    color: #4F97A3;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    margin-right: 160px;
+    text-shadow: 0px 0px 10px rgb(50, 119, 223),
+    0px 0px 20px rgb(88, 138, 213),
+    0px 0px 30px rgb(81, 141, 231),
+    0px 0px 40px rgb(158, 190, 238);
+}
+.bbb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.div-a{
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+  margin-left: 200px;
+}
+.pa{
+font-weight: bold;
+color:white;
+font-size: 25px;
+}
+.pb{
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 25px;
+
+}
+.pc{
+    font-weight: bold;
+    color: burlywood;
+    font-size: 30px;  
+}
+.pd{
+    color: rgb(203, 196, 196);
+}
+.hire{
+    display: flex;
+    gap: 20px;
+}
+#abc{
+    border: 0px;
+    background-color: #C9FFE5;
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
+#cde{
+    border: 0px;
+    background-color: #6CB4EE;
+    padding: 15px 30px 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color:antiquewhite;
+
+}
+.main-1{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.home:hover,.services:hover,.about:hover,.resume:hover,.port:hover,.blog:hover,.contact:hover{
+color: #B2FFFF;
+scale: 1.2;
+text-shadow: 0px 0px 10px rgb(50, 119, 223),
+0px 0px 20px rgb(88, 138, 213),
+0px 0px 30px rgb(81, 141, 231),
+0px 0px 40px rgb(158, 190, 238);
+text-decoration: underline;
+}
+
+
+#abc:hover,#cde:hover{
+    scale: 1.2;
+}
+figcaption{
+    color: rgb(87, 254, 31);
+    text-align: center;
+    font-size: x-large;
+}
+*{
+    font-family: "Poppins", serif;
+
+}
+.div-b{
+margin-top: 50px;
+}
+.cen{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: xxx-large;
+    margin-top: 50px;
+    color: #B9D9EB ;
+    font-weight: bold;
+}
+.pdaa{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: #A3C1AD;
+    margin-top: 40px;
+}
+.pictures{
+    margin-top: 90px ;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    text-align: center;
+}.html,.css,.js,.react,.saas,.git,.nodejs,.mongodb{
+    box-shadow: 2px 2px 10px blue;
+    width: 60%;
+    margin-left: 50px;
+   
+
+}
+figcaption:hover{
+        text-decoration: underline;
+        text-shadow: 0px 0px 10px rgb(50, 119, 223),
+        0px 0px 20px rgb(88, 138, 213),
+        0px 0px 30px rgb(81, 141, 231),
+        0px 0px 40px rgb(158, 190, 238);
+        scale: 1.1;
+        
+    }
+    .main2{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
