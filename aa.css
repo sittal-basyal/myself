@@ -152,4 +152,11 @@ figcaption:hover{
         scale: 1.1;
         
     }
+.main2{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+
 
